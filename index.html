@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Facebook Login JavaScript Example</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet"> 
+    <script src="scripts.js"></script>
+</head>
+<body>
+
+<fb:login-button 
+  size="xlarge"
+  id="fb-btn"
+  scope="public_profile,email,user_posts"
+  onlogin="checkLoginState();">
+  Connect to Facebook
+</fb:login-button>
+
+<button id="logout" class="loginBtn loginBtn--facebook" onclick="logout()">Log Out</button>
+<br>
+<div id="user">
+<h3 id="profile"></h3>
+<br>
+<div id="feed"></div>
+</div>
+</body>
+</html>

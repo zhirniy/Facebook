@@ -85,7 +85,7 @@
             //feed.posts.data[i].created_time_ = feed.posts.data[i].created_time_.split("").reverse().join("");
             output += '<div class="border_"><label>&nbspDate: '+feed.posts.data[i].created_time_+'</label></div>'
             + '<div class="border_ picture" style="background-image: url('+ feed.posts.data[i].picture+'); background-size: cover"></div>'
-            + '<div class="border_"><label class="name">'+ feed.posts.data[i].name+'</label></div>'
+            + '<div class="border_"><label class="name"><p>'+ feed.posts.data[i].name+'</p></label></div>'
             + '<div class="border_ left_user"><label>'+ feed.posts.data[i].likes.summary.total_count+' likes</label></div>'
             + '<div class="border_ left_user"><label>'+ feed.posts.data[i].shares +' shares</label></div>'
             + '<div class="border_ right_user"><label class="a_user"><a href="https://www.facebook.com/'+ feed.posts.data[i].id+'">See post on Facebook--</a></label></div></div>';   

@@ -88,7 +88,7 @@
             + '<div class="border_ name"><label class="name">'+ feed.posts.data[i].name+'</label></div>'
             + '<div class="border_ left_user"><label>'+ feed.posts.data[i].likes.summary.total_count+' likes</label></div>'
             + '<div class="border_ left_user"><label>'+ feed.posts.data[i].shares +' shares</label></div>'
-            + '<div class="border_ name"><label class="a_user"><a href="https://www.facebook.com/'+ feed.posts.data[i].id+'">See post on Facebook--</a></label></div></div>';   
+            + '<div class="border_ right_user"><label class="a_user"><a href="https://www.facebook.com/'+ feed.posts.data[i].id+'">See post on Facebook--</a></label></div></div>';   
              if(i==2 || i==4){
             output +='</div><br><br>';    
             }

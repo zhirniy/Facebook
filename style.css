@@ -29,7 +29,7 @@ text-align:center;
    
    .name{
        /*margin-left:30%;*/
-       text-align:center;
+       text-align:center !important;
    }
    
    .left_user{
